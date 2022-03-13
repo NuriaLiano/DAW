@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!--Autor: Isabel Martinez->
+<html>
+<?php 
+	$salida= "Contenido PHP";
+?>
+<head>
+	<title><?php print $salida; ?>
+</head>
+<body>
+	<h1>Segundo ejemplo:</h1>
+	<?php
+		print $salida;
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejer6.js"></script>
+    <title>Ejercicio 6 - Nuria</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+        }
+
+        #barra-progreso {
+            width: 100%;
+            background-color: grey;
+        }
+
+        #barra {
+            width: 1%;
+            height: 30px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="imagenes">
+            <img src="img/image1.jpeg">
+            <img src="img/image2.jpeg">
+            <img src="img/image3.jpeg">
+        </div>
+        <div class="formulario">
+            <form>
+                <label>Lugar de llegada: </label>
+                <select id="llegada" name="llegada">
+                    <option>Oviedo</option>
+                    <option>Madrid</option>
+                    <option>Santander</option>
+                    <option>Bilbao</option>
+                </select>
+                <br/>
+                <br/>
+                <br/>
+                <label>Lugar de salida: </label>
+                <select id="salida" name="salida">
+                    <option>Roma</option>
+                    <option>Paris</option>
+                    <option>Londres</option>
+                </select>
+                <br/>
+                <br/>
+                <br/>
+                <label>Medio de transporte: </label>
+                <label>Avión<input type="radio" value="avion" id="avion" name="transporte"></label>
+                <label>Tren<input type="radio" value="tren" id="tren" name="transporte"></label>
+                <label>Autobús<input type="radio" value="autobus" id="autobus" name="transporte"></label>
+                <br/>
+                <br/>
+                <input type="button" value="Ver viaje" id="botonVer">
+                <br>
+                <div id="barra-progreso">
+                    <div id="barra"></div>
+                </div>
+                <br/>
+                <br/>
+                <div>
+                    <textarea id="resultado" cols="30" rows="10"></textarea>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

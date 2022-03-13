@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Formulario Hotel- Nuria Gutierrez Liaño</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt="logo del hotel"/>
+	</header>
+	<!--<img src="img/hotel.jpg" alt="imagen del hotel"/>
+    --->
+    <section id="formulario1">
+        <form action ="reserva.html" name="preciohab" oninput="parseInt(resultado.value=(parseInt(noches.value)+parseInt(habitaciones.value))*parseInt(precio.value))">
+            <fieldset >
+                <legend>Habitaciones y precios</legend>
+                <h4><i>El precio por noche y por habitación es de 15€</i></h4>
+                <label for="fecha">Fecha de llegada: <input type="date" name="fecha" required></label>
+                <label for="noches">Nº de noches <input type="number" name="noches" pattern="[1-9]" required title="Ingresa solo números"></label>
+                <label for="habitaciones">Nº habitaciones: <input type="number" name="habitaciones" pattern="[1-9]" required minlength="1" title="Ingresa solo numeros"></label>
+                <label for="precio">Precio fijo hab/noche: <input type="number" value="15" name="precio" readonly></label>
+                <label for="total" id="total">Total a pagar: <output name="resultado" for="noches habitaciones"></output> €</label>
+				<input type="reset" value="Borrar"/>
+				<input type="submit" value="Continuar" />
+			</fieldset>
+        </form>
+    </section>
+	
+	<!--<input type="button" value="Continuar" onclick="location.href='pago.html';"/>-->
+</body>
+</html>

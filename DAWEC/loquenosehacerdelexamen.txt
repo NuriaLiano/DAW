@@ -1,0 +1,11 @@
+evento input checkradio 
+marcar casillas y desmaracar
+evento de teclado para validar un input que solo introduzca numeros
+evento de raton cuando pasas por encima el texto cambia de color
+boton enviar que muestra las opciones marcadas y si son todas muestra todas
+select con las opciones de 
+
+----------------
+
+
+

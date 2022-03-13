@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio de selectores 2</title>
+	<style type="text/css">
+		/*Todo el documento tiene*/
+	*{
+		background-color: lightgrey;
+		color: grey;
+		font-family: cursive; 
+	} 
+
+	/*El  encabezado*/
+	header{   
+	 	font-family: sans-serif;
+	 	text-align: center;
+	 	text-transform: uppercase;
+	}
+
+	/*Todos los párrafos*/
+	p{   
+	 	margin: 50px;
+	    border-left-style: solid;
+	    border-right-style: solid;   
+	    border-width: 	10px; 
+	}
+
+	/*El párrafo cita*/
+	.cita {
+	   border-bottom-style: none;
+	   border-top-style: solid;
+	   margin-bottom: 0px;
+	   padding: 30px 30px 5px;
+	   text-align: justify; 
+	}
+
+	/*El párrafo autor*/
+	.autor {   
+	 	border-bottom-style: solid;
+	 	border-top-style: none;
+	 	font-family: serif;
+	 	margin-top: 0px;
+	 	padding: 0px 30px 30px;
+	 	text-align: center;
+	 }
+
+	/*El párrafo del filósofo*/
+	.filosofo {   
+		background-color: #FFE5E9;
+		border-color: #FFC0CB; 
+	}
+
+	/*El párrafo  del pintor*/
+	.pintor {   
+		background-color: #A6EDDB;
+		border-color: #00CC99; 
+	}
+
+	/*El párrafo del escritor*/
+	.escritor {   
+		background-color: #C2DAF3;
+		border-color: #0066CC; 
+	}
+	</style>
+</head>
+<body>
+	<h1>Citas</h1>
+	<p class="filosofo">
+		<p class="cita filosofo">Lorem ipsum dolor sit amet consectetur <a href ="#">adipiscing elit blandit</a>, taciti donec sapien tellus euismod netus himenaeos cursus</p>
+		<p class="autor filosofo">Baron de Monstesquets (1669-1755), filosofo y jurista frances</p>
+	</p>
+	<p class="pintor">
+		<p class="cita pintor">Dignissim eros aptent semper volutpat cras conubia duis lacinia lobortis accumsan, placerat sociis</p>
+		<p class="autor pintor">Eduard Monet (1832-1883), pintor frances</p>
+	</p>
+	<p class="escritor">
+		<p class="cita escritor">ullamcorper ultrices vestibulum, imperdiet vivamus pellentesque</p>
+		<p class="autor escritor">Antonio Porcchia (1985-1968), escritor argentino</p>
+	</p>
+</body>
+</html>

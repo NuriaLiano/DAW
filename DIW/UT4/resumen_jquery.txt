@@ -1,0 +1,53 @@
+introducir libreria -> <script type=“text/javascript” src=“jquery.js”></script>
+inicio jquery -> $(document).ready( function() {…} );
+para identificar, clase o nombre de etiqueta -> $("");
+
+-------
+bind() asociar varios eventos a un elemento
+unbind() elimina lo asociado con bind
+$(“p”).css({color: “red”, background: “blue”, font-weight:“bold”}); propiedades css
+append() añadir contenido como ultimo hijo de cada elemento de la coleccion seleccionada
+prepend() insertar como primer hijo
+innnerWidth() .innerHeight() devuelve ancho y alto del interior del elemento. cuenta el padding pero no el borde
+.outerWidth() y .outerHeight() devuelve las dimensiones externas
+offset() indica la posicion del elemento. Devuelve un objeto con dos atributos, top y left
+hide(velocidad) oculta un elemento
+show(velocidad) muestra un elemento
+fadeIn(velocidad) mostrar elemento oculto. parametros "slow" "fast"
+fadeOut(velocidad) ocultar elemento visible
+fadeToggle(velocidad) cambia entre fadeIn y fadeOut dependiendo de si el elemento esta visible o no
+fadeTo(valocidad, opacidad) atenuar la opacidad. valores entre 0 y 1
+
+---
+Text() devuelve o establece el contenido de texto
+Html() establece o devuelve el contenido de los elementos seleccionados 
+Val() Establece o devuelve el valor de los campos de un formulario
+
+----
+AddClass() agrega una o mas clases 
+removeClass() elimina una o mas clases
+ToggleClass() alterna entre agregar/quitar clases de los elementos
+css() establece o devuelve el atributo de estilo
+
+---
+mouseup() cuando se suelta el boton del raton sobre el elemento seleccionado
+mousedown() cuando presionas cualquier boton del raton
+mouseover() cambia cada vez que entras o sales
+mouseleave() cuando el raton sale de un elemento
+mouseenter() cuando el raton entra sobre un elemento y se queda siempre amarillo
+mousemove() cada vez que el puntero del mouse se mueve dentro del elemento seleccionado
+mouseout() cuando el raton sale de un elemento 
+---
+
+---
+slideDown(velocidad) desliza hacia abajo
+slideUp(velocidad) desliza hacia arriba
+slideToggle(velocidad) alterna entre slideDown y slideUp
+animate({parametros}) crear animaciones personalizadas
+¡¡¡¡¡¡ PARA MANIPULAR EL COLOR ES NECESARIA LA LIBRERIA COLOR ANIMATION!!!!!
+delay(velocidad) temporizador para retrasar la ejecucion del siguiente elemento
+
+Detectar pulsacion del raton (el ejemplo esta en el ejercicio9)
+ == 1 boton izq
+ == 2 rueda
+ == 3 boton der

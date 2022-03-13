@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Pasarela de pago - Nuria Gutierrez Liaño</title>
+</head>
+<body>
+    <section id="imagenes">
+        <img src="img/pago_tarjetas.png"/>
+    </section>
+    <section id="formulario3">
+        <form action="#">
+            <legend>Pasarela de pago</legend>
+            <label>Nº de tarjeta: <input type="number" maxlength="16" pattern="[0-9]" placeholder="0000000000000000"></label>
+            <label>Caducidad: <input type="date"></label>
+            <label>Código de seguridad/CVV2: <input type="password" maxlength="4" pattern="[0-9]"></label>
+            <label>Titular de la tarjeta: <input type="text" pattern="[A-Za-z]" placeholder="Nombre Apellido Apellido"></label>
+            <input type="reset" value="Borrar"/>
+			<input type="submit" value="Continuar" />
+        </form>
+    </section>
+   <!-- <input id="boton_pago" type="button" value="Pagar" onclick="location.href='#';"/>-->
+</body>
+</html>

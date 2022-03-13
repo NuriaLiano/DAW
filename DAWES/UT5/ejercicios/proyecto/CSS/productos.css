@@ -1,0 +1,122 @@
+body {
+    font-family: Arial;
+}
+
+/*.cesta {
+    background-color: black;
+    color: white;
+    position: relative;
+    float: right;
+    top: -65px;
+    right: 127px;
+}*/
+
+.titulo-productos{
+    background-color: rgb(56, 197, 216);
+    text-align: center;
+    padding: 0 25% 0 25%;
+    he
+}
+
+.contenedor {
+    /*border: 2px black solid;
+    margin-right: 80%;*/
+    display: flex;
+    flex-wrap: wrap; /*muestra el texto en una sola linea*/
+    margin-left: -8px;
+    margin-right: -8px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    
+    flex-basis: 25%;
+    padding: 8px 8px 10px 8px;
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: auto;
+    height: 400px;
+    margin: 20px; 
+}
+
+/*.caja:hover{
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+
+    /* posicion */
+    
+    /*position: relative;
+    transform: translate(1rem, 1rem);*/
+
+    /* tamaño igual que la caja original */
+    /*width: 100px;
+    height: 350px;
+
+    /* se posiciona por encima de la caja */
+    /*z-index: 1;
+}*/
+
+.caja img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    float: left;
+}
+
+.fdcha {
+    float: left;
+    margin-left: 220px;
+    height: 250px;
+    line-height: 24px;
+}
+
+.caja-titulo{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.caja-fam{
+    font-size: 15px;
+    color: rgb(202, 199, 199);
+    
+}
+.caja-precio{
+    font-size: 30px;
+    /*color: rgb(56, 197, 216);
+    text-shadow: 0px 0px 4px rgb(58, 143, 158), 0px 0px 6px rgb(20, 70, 77);*/
+    color: rgb(56, 197, 216);
+    text-shadow: 0 0 4px #111e41, 0 0 8px rgb(57, 145, 156);
+    
+}
+
+/*separador*/
+hr{
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0, rgb(56, 197, 216), #f0f0f0); /*gradiente*/
+}
+
+.caja-des{
+    width: 300px;
+    white-space: nowrap;
+    overflow:hidden; 
+    text-overflow: ellipsis;
+}
+
+.caja input{
+    background-color: rgb(56, 197, 216);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    align-items: center;
+}
+
+.caja input:hover{
+    /*background: rgba(33, 255, 26, 0.438);*/
+    background-color: white;
+   
+}

@@ -1,0 +1,79 @@
+div#body{
+    margin: auto auto auto auto; 
+    width: 710px;
+}
+div#header{
+    margin: 10px auto 10px auto;
+    width: 710px; 
+    border: solid 3px rgb(116, 82, 8);
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+div#sidebar{ 
+    display: none; 
+    border: solid 1px #ccc;
+    padding-left: 15px;
+}
+#header img{
+    border: dotted 3px greenyellow;
+    
+    
+}
+#titulo{
+    border: dotted 3px blue;
+    border-radius: 10px;
+    clear: both;
+    padding-left: 15%;
+    margin-top: -15%;
+    height: 69px;
+    padding-top: 27px;
+}
+#sidebar ul { 
+    list-style: none;
+    display: block;
+    float: left;
+    padding-left: 0px;
+}
+li{ 
+    list-style: none;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(116, 82, 8);
+    float: left;
+    
+}
+
+body.main-sidebar div#main, body.sidebar-main div#main{
+    width: 490px;
+    
+}
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+    display: block; 
+    width: 200px; 
+    border: dotted 1px rgb(147, 214, 39);
+    
+    
+    
+}
+body.main-sidebar div#main, body.main-sidebar div#sidebar{
+    float: left;
+    border: solid 1px #ccc;
+}
+body.sidebar-main div#main, body.sidebar-main div#sidebar{
+    float: right;
+    border: dotted 1px rgb(147, 214, 39);
+    
+}
+div#footer{
+    margin: 10px auto 10px auto;
+    width: 710px; 
+    border: solid 3px rgb(116, 82, 8);
+    border-radius: 10px;
+    clear: both;
+    margin-top: 10px;
+}
+

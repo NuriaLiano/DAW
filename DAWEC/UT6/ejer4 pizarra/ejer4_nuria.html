@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejer4_nuria.js"></script>
+    <title>Ejercicio de Pizarra - Nuria Gutierrez</title>
+    <style>
+        #contenedor {
+            /*display: table;
+            border: 2px solid #000;
+            
+            text-align: center;
+            margin: 0 auto;*/
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            resize: none;
+            float: inherit;
+            margin: auto;
+        }
+        .hijosPizarra{
+
+        border: solid black 1px;
+        width: 10px;
+        height: 10px;
+
+        max-width: 10px;
+        max-height: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <input type="color" name="color" id="color">
+    <input type="button" value="Borrar todo" id="borrar">
+    <input type="button" value="Goma" id="goma">
+    
+    <hr>
+    <div id="contenedor" >
+    </div>
+</body>
+</html>

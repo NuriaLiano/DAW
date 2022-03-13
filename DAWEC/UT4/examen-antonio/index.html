@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen por Antonio López (DAW220)</title>
+
+    <!-- Estilos -->
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p#tirada {
+        width: 3em;
+      }
+
+      p#tirada,
+      p#tiradas {
+        border: 1px solid black;
+        height: 3em;
+        line-height: 3em;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .numero {
+        border: 1px solid black;
+        height: 3em;
+        line-height: 3em;
+        width: 3em;
+        padding: 1em;
+        text-align: center;
+        clear: right;
+      }
+
+      #estadisticas {
+        margin-top: 1em;
+      }
+
+      input[type="text"] {
+        height: 3.2em;
+        line-height: 3.2em;
+        text-align: justify;
+        font-weight: bold;
+      }
+    </style>
+    <!-- Fin estilos -->
+
+    <!-- JavaScript -->
+    <script src="examen.js"></script>
+    <!-- Fin JavaScript -->
+  </head>
+
+  <body>
+    <!-- Cabecera -->
+    <header>
+      <h1>Examen por Antonio López (DAW220)</h1>
+      <hr />
+    </header>
+    <!-- Fin cabecera -->
+
+    <!-- Cuerpo -->
+    <main>
+      <!-- Resolución ejercicio 1 -->
+      <h2>Ejercicio 1</h2>
+      <section id="ejercicio_1">
+        <button id="sumar">Sumar</button>
+      </section>
+      <!-- Fin resolución -->
+
+      <!-- Resolución ejercicio 2 -->
+      <h2>Ejercicio 2</h2>
+      <section id="ejercicio_2">
+        <button id="descifrar">Descifrar</button>
+      </section>
+      <!-- Fin resolución -->
+
+      <!-- Resolución ejercicio 3 -->
+      <h2>Ejercicio 3</h2>
+      <section id="ejercicio_3">
+        <article>
+          <h3>Tirar dado</h3>
+          <button id="tirar">Tirar dado</button>
+          <p id="tirada"></p>
+        </article>
+
+        <article>
+          <h3>Ver tiradas</h3>
+          <button id="ver_tiradas">Ver tiradas</button>
+          <p id="tiradas"></p>
+        </article>
+
+        <article>
+          <h3>Ver estadísticas</h3>
+          <button id="ver_estadisticas">Ver estadísticas</button>
+
+          <section id="estadisticas"></section>
+        </article>
+      </section>
+      <!-- Fin resolución -->
+    </main>
+    <!-- Fin cuerpo -->
+
+    <!-- Pie -->
+    <footer>
+      <hr />
+      <p>Desarrollado por Antonio López (DAW220)</p>
+    </footer>
+    <!-- Fin pie -->
+  </body>
+</html>

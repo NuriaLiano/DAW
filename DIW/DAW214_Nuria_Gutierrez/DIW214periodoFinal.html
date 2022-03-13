@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DIW214periodoFinal.css">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <title>Examen Periodo Final Nuria Gutierrez Liaño</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //click en la imagen
+            $(".contenido").click(function(){
+                //colores izquierda
+                $(".izq_top").css({"color":"green"});
+                $(".izq_down").css({"color":"blue"});
+                //colores derecha
+                $(".dcha_top").css({"color":"red"});
+                $(".dcha_down").css({"color":"white"});
+                
+                //desaparece izquierda
+                $(".izq_top").slideToggle();
+                $(".izq_down").slideToggle();
+                //desaparece derecha
+                $(".dcha_top").delay(3000).slideToggle();
+                $(".dcha_down").delay(3000).slideToggle();
+            });
+
+            //boton de parar
+            $("#parar").click(function(){
+                $(".izq_top").stop();
+                $(".izq_down").stop();
+                $(".dcha_top").stop();
+                $(".dcha_down").stop();
+            });
+
+            //Entrar y salir de la imagen
+            $(".contenido").hover(function(){
+                $(this).css({
+                    "backgroundColor":"yellow"
+                });
+            },function(){
+                $(".contenido").css({
+                    "backgroundColor":"pink",
+                    "color":"green"
+                });
+            });
+
+            //boton aumentar
+            $("#aumentar").click(function(){
+                $(".contenido").css({
+                    "fontSize":'5em'
+                })
+            })
+
+            //boton diminuir
+            $("#disminuir").click(function(){
+                $(".contenido").css({
+                    "fontSize":'2.5em'
+                });
+                    
+            })
+        })
+            
+    </script>
+</head>
+<body>
+    <input type="button" id="aumentar" value="aumentar">
+    <input type="button" id="disminuir" value="disminuir">
+    <input type="button" id="parar" value="parar">
+    <div class="contenido">
+        HTML CSS JQUERY
+        <div class="izq_top">D</div>
+        <div class="dcha_top">I</div>
+        <div class="izq_down">W</div>
+        <div class="dcha_down">2</div>
+    </div>
+</body>
+</html>

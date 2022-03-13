@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta output</title>
+</head>
+<body>
+    <form name="pruebas" oninput="parseInt(resultado.value=parseInt(num_extra.value)*parseInt(precio.value)+parseInt(suple.value))">
+        <fieldset>
+            <legend>Pruebas clase</legend>
+            <label for="num_extra">Numero de horas extra: <input type="number" name="num_extra"></label>
+            <label for="precio">Precio/hora € <input type="number" name="precio"></label>
+            <label for="suple">Suplemento: <input type="number" readonly value="5" name="suple"></label>
+            <label for="total">Total: <output name="resultado" for="num_extra precio suple"></output> €</label>
+        </fieldset>
+    </form>
+</body>
+</html>

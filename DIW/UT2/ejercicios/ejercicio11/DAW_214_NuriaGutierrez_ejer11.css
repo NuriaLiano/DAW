@@ -1,0 +1,55 @@
+body { 
+    text-align: center; 
+} 
+#contenedor { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    margin-top: -18%;
+    margin-left: -40%;
+    width: 80%; 
+    height: 80%; 
+    border: 1px solid red; 
+} 
+#caja-si { 
+    float: left;
+    width: 47%; 
+    height: 45%; 
+    margin-top: 2%; 
+    margin-bottom: 0%; 
+    margin-left: 2%; 
+    margin-right: 0.5%; 
+    border: 1px solid red; 
+} 
+#caja-sd { 
+    float: right;
+    width: 47%; 
+    height: 45%; 
+    margin-top: 2%; 
+    margin-bottom: 0%; 
+    margin-right: 2%; 
+    margin-left: 0.5%; 
+    border: 1px solid red; 
+} 
+    
+    
+    
+#caja-ii { 
+    top: 50%; 
+    float: left;
+    width: 47%; 
+    height: 45%; 
+    margin-top: 1%; 
+    margin-left: 2%; 
+    border: 1px solid red; 
+} 
+#caja-id { 
+    top: 50%; 
+    float: right;
+    width: 47%; 
+    height: 45%; 
+    margin-top: 1%; 
+    margin-right: 2%; 
+    border: 1px solid red; 
+} 
+    

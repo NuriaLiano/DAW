@@ -1,0 +1,149 @@
+/*Aplicar el color de fondo a toda la página*/
+body{
+    background-color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/************************************/
+/*Colores de fondo para etiquetas generales*/
+header{
+    background-color: #42c0c7 ;
+    /*backdrop-filter: blur(5px);*/
+    border-radius: 10px;
+}
+nav{
+    background-color: #299399;
+    align-content: center;
+}
+/*ul{
+    background-color: #c7a642 ;
+}*/
+section{
+    background-color: #6ec742 ;
+}
+li {
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    background-color: #d96cbe ;
+}
+aside{
+    background-color: #6c7dd9 ;
+}
+footer{
+    background-color: #f05746 ;
+    float: bottom;
+}
+/************************************/
+
+/* HEADER PRINCIPAL*/
+
+.header_principal li{
+    background-color: #2f7a7e ;
+    border-radius: 6px;
+    margin: 2%;
+    display: inline;
+}
+/* cambia el color cuando el ratón se pone por encima*/
+.header_principal a:hover{
+    color: lightblue;
+}
+
+/************************************/
+
+/* SECTION IZQUIERDA*/
+
+/*Espacio y lugar que ocupa el section izquierda*/
+.izq_section{
+    float: left;
+    width: 80%;
+    border-style: dotted;
+    border-color: #265211;
+}
+
+/*HEADER DEL SECTION IZQUIERDO*/
+/*Titulo del section izquierda*/
+.izq_section h2{
+    background-color: rgb(109, 201, 207);
+}
+/*titulo del primer articulo*/
+.header_articulo_up h4{
+    background-color: rgb(197, 234, 245);
+    border-radius: 5px;
+}
+
+.primer_p {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 5%;
+    max-height: max-content;
+}
+.segundo_p{
+    text-align: justify;
+    display: inline-block;
+    width: 70%;
+}
+aside{
+    display: inline-block;
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-right: 5%;
+}
+.articulo_up footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*titulo del segundo articulo*/
+.header_articulo_down h4{
+    background-color: rgb(197, 234, 245);
+    border-radius: 5px;
+}
+.tercer_p{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+}
+.articulo_down footer {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.izq_section footer{
+    border-radius: 5px;
+    border-style: dotted;
+    border-color: red;
+}
+
+/*COMIENZA LA SECCION DE LA DERECHA*/
+
+.der_section{
+    float: right;
+    width: 18%;
+    border-style: dotted;
+    border-color: #265211;
+    margin-left: auto;
+    position: fixed;
+    right: 1%;
+}
+
+.der_nav a{
+    color: red;
+    font-size: x-large;
+}
+.der_nav img{
+    position: sticky;
+    width: 40px;
+    margin-top: 14px;
+    
+}

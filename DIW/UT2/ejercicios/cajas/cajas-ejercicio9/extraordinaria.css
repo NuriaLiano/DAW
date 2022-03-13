@@ -1,0 +1,70 @@
+
+.contenedor{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.rojo{
+    background-color: red;
+    /*centar en eje x y eje y*/
+    top: 50%;
+    left: 50%;
+    /************************/
+    /*ubicar posicion*/
+    float: left;
+    /************************/
+    /*tamaño de la caja*/
+    width: 10%;
+    height: 10%;
+    /************************/
+    
+    border: 4px solid rgb(235, 143, 143);
+}
+.amarillo{
+    background-color: yellow;
+    /*centar en eje x y eje y*/
+    top: 50%;
+    left: 50%;
+    /************************/
+    /*ubicar posicion*/
+    float: right;
+    clear: right;
+    /************************/
+    /*margen con el elemento inferior y con la izquierda*/
+    margin-bottom: 50%;
+    /************************/
+    /*tamaño de la caja*/
+    width: 10%;
+    height: 10%;
+    /************************/
+    border: 4px solid rgb(237, 237, 101);
+}
+.verde{
+    background-color: greenyellow;
+    /*centar en eje x y eje y*/
+    top: 50%;
+    left: 50%;
+    /************************/
+    /*ubicar posicion*/
+    float: right;
+    clear: right;
+    /************************/
+    width: 10%;
+    height: 10%;
+    /************************/
+    border: 4px solid rgb(98, 162, 61);
+}
+.azul{
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    /************************/
+    float: left;
+    /************************/
+    width: 10%;
+    height: 10%;
+    /************************/
+    border: 4px solid rgb(63, 138, 218);
+}

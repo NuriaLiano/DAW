@@ -1,0 +1,12 @@
+.normal{
+    background-color: red;
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+.recuadro{
+    background-color: springgreen;
+    border: solid;
+    width: 200px;
+    height: 200px;
+}

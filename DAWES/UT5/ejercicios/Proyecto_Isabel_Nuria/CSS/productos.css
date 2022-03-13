@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+.cesta {
+    background-color: black;
+    color: white;
+    position: relative;
+    float: right;
+    top: -65px;
+    right: 127px;
+}
+
+.caja {
+    border: 2px black solid;
+    margin-right: 80%;
+}
+
+.caja img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.fdcha {}

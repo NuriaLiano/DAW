@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Formularios Nuria</title>
+</head>
+<body>
+    <header>
+        <h1>MI VIDA ES LA MÚSICA</h1>
+        <h4>Por favor, rellene los datos..</h4>
+    </header>
+    <form action="#" method="post">
+        <fieldset id="datos">
+            <legend>Datos personales</legend>
+            <p>Nombre: <input type="text" autofocus="autofocus" placeholder="Introduzca su nombre" maxlength="40"/></p>
+            <p>Telefono: <input type="tel" required maxlength="12" placeholder="+34-678655493"></p>
+            <p>Dirección de correo: <input type="email" required maxlength="30" placeholder="Introduzca su dirección de correo"/></p>
+            <p>Fecha: <input type="date"/></p>
+        </fieldset>
+        <fieldset id="favoritos">
+            <legend>Grupos favoritos</legend>
+            <p>Elige tu grupo </p>
+            <select>
+                <datalist>
+                    <option>Greta Van Fleet</option>
+                    <option>Bon Jovi</option>
+                    <option>Bad Wolves</option>
+                    <option>Linkin Park</option>
+                    <option>Metallica</option>
+                </datalist>
+            </select>
+        </fieldset>
+        <fieldset id="votacion">
+            <legend>Votación general de grupos</legend>
+            <label>Greta Van Fleet <input type="number" maxlength="10" placeholder="Ingresa un numero del 1 al 10"></label>
+            <label>Bon Jovi <input type="number" maxlength="10" placeholder="Ingresa un numero del 1 al 10"></label>
+            <label>Bad Wolves <input type="number" maxlength="10" placeholder="Ingresa un numero del 1 al 10"></label>
+            <label>Linkin Park <input type="number" maxlength="10" placeholder="Ingresa un numero del 1 al 10"></label>
+            <label>Metallica <input type="number" maxlength="10" placeholder="Ingresa un numero del 1 al 10"></label>
+        </fieldset>
+        <fieldset id="fichero">
+            <legend>Subir fichero</legend>
+            <label>Buscar fichero: <input type="file" accept="text/pdf" multiple></label>
+        </fieldset>
+        <section id="botones">
+            <label><input type="submit"></label>
+            <label><input type="reset"></label>
+        </section>
+
+        
+        
+    </form>
+</body>
+</html>

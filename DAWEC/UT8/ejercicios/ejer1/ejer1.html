@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejer1.js"></script>
+    <title>Ejercicio cookies</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Colores de fondo</legend>
+        <select name="colores" id="colores">
+            <option value="">Selecciona un color</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Numero de divs a imprimir</legend>
+        <input type="number" id="numdivs">
+    </fieldset>
+    <fieldset>
+        <legend>
+            <select name="coloresDivs" id="coloresDivs">
+                <option value="">Selecciona un color</option>
+                <option value="yellow">Amarillo</option>
+                <option value="orange">Naranja</option>
+                <option value="purple">Lila</option>
+            </select>
+        </legend>
+    </fieldset>
+    <fieldset>
+        <fieldset>
+            <legend>Grosor de borde</legend>
+            Grueso<input type="radio" name="grosor" value="grueso">
+            Medio<input type="radio" name="grosor" value="medio">
+            Fino<input type="radio" name="grosor" value="fino">
+        </fieldset>
+        <fieldset>
+            <legend>Tipo de borde</legend>
+            Puntos<input type="radio" name="tipo" value="dotted">
+            Normal<input type="radio" name="tipo" value="solid">
+            Rayas<input type="radio" name="tipo" value="rayas">
+        </fieldset>
+        <fieldset>
+            <legend>Color de borde</legend>
+            Gris<input type="radio" name="color" value="grey">
+            Marron<input type="radio" name="color" value="brown">
+            Blanco<input type="radio" name="color" value="white">
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        <input type="button" value="resultado" id="verResultado">
+        <input type="button" value="aplicar" id="aplicar">
+    </fieldset>
+    
+</body>
+</html>

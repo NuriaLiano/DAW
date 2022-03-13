@@ -1,0 +1,23 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+div{
+    width: 140px;
+    height: 140px;
+
+    border: solid hotpink;
+}
+#gris-claro{
+    background-color: rgb(187, 185, 185);
+}
+#gris-oscuro{
+    background-color: rgb(66, 66, 66);
+}
+#gris-medio{
+    background-color: grey;
+}
+#reestablecer{
+    background-color: black;
+}

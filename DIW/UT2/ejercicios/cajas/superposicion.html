@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio diapositivas</title>
+    <style>
+        .caja1, .caja3{
+            position: absolute;
+            background-color: #f99;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        .caja2{
+            position: relative;
+            background-color: #ffe900;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            width: 200px;
+            height: 200px;
+            left: 90px;
+            top: 60px;
+            z-index: 1;
+        }
+        div:hover{
+            z-index: 2;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja1">Caja1</div>
+    <div class="caja2"> Caja2</div>
+    <div class="caja3">Caja3</div>
+</body>
+</html>

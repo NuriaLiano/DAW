@@ -1,0 +1,42 @@
+div#body{
+    margin: auto auto auto auto; 
+    width: 710px;
+}
+div#header{
+    margin: 10px auto 10px auto;
+    width: 710px; 
+    border: solid 3px rgb(42, 11, 242);
+    border-radius: 10px;
+}
+div#sidebar{ 
+    display: none; 
+    border: solid 1px #ccc;
+    padding-left: 15px;
+}
+body.main-sidebar div#main, body.sidebar-main div#main{
+    width: 490px;
+}
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar {
+    display: block; 
+    width: 200px; 
+    border: dotted 1px rgb(147, 214, 39);
+    
+}
+body.main-sidebar div#main, body.main-sidebar div#sidebar{
+    float: left;
+    border: solid 1px #ccc;
+}
+body.sidebar-main div#main, body.sidebar-main div#sidebar{
+    float: right;
+    border: dotted 1px rgb(147, 214, 39);
+    
+}
+div#footer{
+    margin: 10px auto 10px auto;
+    width: 710px; 
+    border: solid 3px rgb(11, 242, 126);
+    border-radius: 10px;
+    clear: both;
+    margin-top: 10px;
+}
+

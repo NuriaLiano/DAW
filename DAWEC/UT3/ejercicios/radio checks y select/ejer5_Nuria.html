@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Nuria</title>
+    <script src="ejer5_Nuria.js"></script>
+    <style>
+        section{
+            border-top: solid 2px;
+            border-radius: 5px;
+            margin-bottom: 15px;;
+
+        }
+        #pedir{
+            margin-top: 15px;
+            border-radius: 3px;
+            background-color: goldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="javascript:void(0)"> <!-- si al hacer clic en un enlace, no quieres que el navegador abra una nueva página o refresque la página actual (dependiendo de la URL especificada).En cambio, solo ejecutará el JavaScript que esté adjunto a ese enlace.-->
+        <section>
+            <p>Tipo de masa</p> <!--tienen que tener el mismo name-->
+            <input type="radio" name="masa" value="fina">Fina
+            <input type="radio" name="masa" value="normal" checked>Normal
+            <input type="radio" name="masa" value="rellena">Rellena
+        </section>
+        <section>
+            <p>Ingredientes</p>
+            <input type="checkbox" name="ingrediente" value="mozzarella" checked>Mozzarella
+            <input type="checkbox" name="ingrediente" value="tomate" checked>Tomate
+            <input type="checkbox" name="ingrediente" value="queso" checked>Queso
+            <input type="checkbox" name="ingrediente" value="jamon">Jamón
+            <input type="checkbox" name="ingrediente" value="anchoa">Anchoa
+        </section>
+        <section>
+            <p>Datos del cliente</p>
+            <textarea></textarea>
+        </section>
+        <section>
+            <input id="pedir" type="submit" value="PEDIDO">
+        </section>
+        <!-- Resultado -->
+        <label id="comprobante"></label>
+        
+    </form>
+</body>
+</html>

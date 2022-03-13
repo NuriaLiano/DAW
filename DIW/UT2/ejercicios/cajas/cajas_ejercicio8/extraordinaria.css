@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+
+.contenido{
+    /*Centra horizontal y vertical*/
+    margin-top: 10%;
+    margin-left: 25%;
+    border: 4px solid;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+}
+.amarillo{
+    background-color: yellow;
+    float: left;
+    width: 40%;
+    height: 30%;
+}
+.rojo{
+    background-color: red;
+    float: right;
+    clear: right;
+    width: 60%;
+    height: 30%;
+}
+.azul{
+    background-color: blue;
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+.verde{
+    background-color: greenyellow;
+    float: right;
+    clear: right;
+    height: 60%;
+    width: 40%;
+}
+.gris{
+    background-color: grey;
+    float: left;
+    width: 100%;
+    height: 10%;
+}

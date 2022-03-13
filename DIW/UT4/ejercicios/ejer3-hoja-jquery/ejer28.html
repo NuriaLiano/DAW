@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#btn").click(function() {
+                $("p").css({"background-color":"yellow"});
+                $("p").css({"fontSize":"50px"});
+            })
+                
+        })
+    </script>
+    <style>
+        #pri{
+            background-color: aquamarine;
+            width: 100px;
+            height: 100px;
+        }
+        #se{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+        }
+        #ter{
+            background-color: springgreen;
+            width: 100px;
+            height: 100px;
+        }
+        #cuar{
+            background-color: plum;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p id="pri">primero</p>
+    <p id="se">segundo</p>
+    <p id="ter">tercero</p>
+    <p id="cuar">cuarto</p>
+    
+    
+    <input type="button" value="btn" id="btn">
+
+    
+</body>
+
+</html>

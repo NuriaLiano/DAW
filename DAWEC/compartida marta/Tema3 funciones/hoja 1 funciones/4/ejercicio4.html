@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta description="author" content="Antonio López Fernández">
+    <title>Ejercicio 4 por Antonio López - DAW220</title>
+
+    <!-- Estilos -->
+    <style type="text/css">
+        section {
+            margin-bottom: 0.5em;
+        }
+    </style>
+
+    <!-- JavaScript -->
+    <script src="ejercicio4.js"></script>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Ejercicio 4 por Antonio López - DAW220</h1>
+        <hr />
+    </header>
+    <!-- Fin cabecera -->
+
+    <!-- Formulario -->
+    <form action="javascript:void(0)">
+        <!-- Números -->
+        <section>
+            <label for="numero1">Número 1: </label>
+            <input id="numero1" type="number" step="0.01" min="0" value="1" />
+        </section>
+        <section>
+            <label for="numero2">Número 2: </label>
+            <input id="numero2" type="number" step="0.01" min="0.01" value="1" />
+        </section>
+
+        <!-- Operación a realizar -->
+        <section>
+            Operación:
+            <select id="operacion">
+                <option value="+">Suma</option>
+                <option value="-">Resta</option>
+                <option value="*">Multiplicación</option>
+                <option value="/">División</option>
+            </select>
+        </section>
+
+        <!-- Resultado de la operación -->
+        <section>
+            Resultado:
+            <input id="resultado" type="text" readonly value="" />
+        </section>
+
+        <!-- Botón -->
+        <section>
+            <input id="calcular" type="submit" value="CALCULAR" />
+        </section>
+    </form>
+    <!-- Fin formulario -->
+</body>
+
+</html>

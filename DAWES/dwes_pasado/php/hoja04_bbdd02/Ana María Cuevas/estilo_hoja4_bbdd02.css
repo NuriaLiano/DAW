@@ -1,0 +1,17 @@
+table{
+    border: 0px;
+    
+}
+th{
+    background-color: rgba(172, 255, 47, 0.63);
+    border: 0px;
+    padding: 20px;
+    border-radius: 30px;
+}
+td{
+    border:0px;
+    text-align: center;
+    padding: 5px;
+}
+
+

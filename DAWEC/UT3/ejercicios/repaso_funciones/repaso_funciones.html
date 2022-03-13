@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Nuria</title>
+    <script src="repaso_funciones_.js"></script>
+    
+</head>
+<body>
+    <section>
+        <fieldset>
+            <legend>Selecciona el hotel</legend>
+            <form name="form_hotel">
+                <select name="hoteles" id="hoteles_sel">
+                    <option value="1">Hotel enano *</option>
+                    <option value="2">Hotel pequeño **</option>
+                    <option value="3">Hotel mediano ***</option>
+                    <option value="4">Hotel casi grande ****</option>
+                    <option value="5">Hotel grande *****</option>
+                </select>
+                <input type="number" id="n_noches">
+                <label for="" id="resultado"></label>
+                <input type="button" id="boton_hotel" value="Calcular">
+            </form>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Selecciona el tipo de vuelo y el destino</legend>
+            <form name="fomulario_vuelo">
+                <select name="vuelo" id="vuelo_sel">
+                    <option value="0">Selecciona</option>
+                    <option value="ida">ida</option>
+                    <option value="ida_vuelta">Ida y vuelta</option>
+                </select>
+                <select name="destino" id="destino_sel">
+                    <option value="0">Selecciona</option>
+                    <option value="1">Madrid</option>
+                    <option value="2">Tokio</option>
+                    <option value="3">Berlin</option>
+                    <option value="4">Belgica</option>
+                </select>
+                <input type="button" id="boton_vuelo" value="Calcular vuelo">
+            </form>
+            
+        </fieldset>
+
+    </section>
+    <section>
+        <fieldset>
+            <legend>Coste de alquiler</legend>
+            <label for="" id="coste_alquiler_lbl"></label>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Coste TOTAL</legend>
+            <label for="" id="coste_total_lbl"></label>
+        </fieldset>
+    </section>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <script src="plantilla.js"></script>
+    <title>Ejercicio de Repaso final NURIA</title>
+    <style>
+        h2, table, tr, td{
+            text-align: center;
+        }
+        td{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Elija  menú</h2>
+    
+    <table>
+        <tr>
+            <th>Platos</th>
+            <th>Cantidad</th>
+            <th>Subtotales</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>Pizza 4 estaciones</td>
+            <td><input type="number" id="cantiPizza"></td>
+            <td id="mostrarPizza"></td>
+            <td><input type="text" id="mostrarTotalPizza"></td>
+        </tr>
+        <tr>
+            <td>Tortellini</td>
+            <td><input type="number" id="cantiTorti"></td>
+            <td id="mostrarTorti"></td>
+            <td><input type="text" id="mostrarTotalTorti"></td>
+        </tr>
+        <tr>
+            <td>Lasagna</td>
+            <td><input type="number" id="cantiLasagna"></td>
+            <td id="mostrarLasagna"></td>
+            <td><input type="text" id="mostrarTotalLasagna"></td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td><input type="number" id="total"></td>
+        </tr>
+        <tr>
+            <td>Formas de pago</td>
+            <td>Visa:<input type="radio" id="elegir1" value="visa" name="elegir"></td>
+            <td>Mastercard:<input type="radio" id="elegir2" value="mastercard" name="elegir"></td>
+            <td>Transferencia:<input type="radio" id="elegir3" value="transferencia" name="elegir"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="registrar" value="Registrar"></td>
+            <td><input type="button" id="borrar" value="Borrar datos"></td>
+            <td><input type="button" id="almacenar" value="ALMACENAR"></td>
+        </tr>
+    </table>
+</body>
+</html>

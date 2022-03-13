@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 05 por Antonio López (DAW220)</title>
+
+    <!-- Estilos -->
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input[type=text] {
+            margin-bottom: 0.5em;
+        }
+
+        select {
+            margin: 1em 0.5em;
+        }
+    </style>
+    <!-- Fin estilos -->
+
+    <!-- JavaScript -->
+    <script src="ejercicio05.js"></script>
+    <!-- Fin JavaScript -->
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Ejercicio 05 por Antonio López (DAW220)</h1>
+        <hr>
+    </header>
+    <!-- Fin cabecera -->
+
+    <!-- Cuerpo -->
+    <main>
+        <!-- Resolución ejercicio -->
+        <section>
+            <form action="javascript:void(0)">
+                <!-- Caja de texto -->
+                <article>
+                    <label for="caja_texto">Introduce un valor: </label>
+                    <input type="text" name="caja_texto" id="caja_texto" autofocus />
+                </article>
+
+                <!-- Valores de inicio y fin -->
+                <article>
+                    <label for="inicio">Inicio: </label>
+                    <select name="inicio" id="inicio">
+                    </select>
+
+                    <label for="fin">Fin: </label>
+                    <select name="fin" id="fin">
+                    </select>
+                </article>
+
+                <!-- Botonera -->
+                <article>
+                    <input type="submit" value="Guardar" id="guardar" />
+                    <input type="submit" value="Media" id="media" />
+                </article>
+
+                <!-- Resolución -->
+                <article id="resolucion">
+
+                </article>
+            </form>
+        </section>
+    </main>
+    <!-- Fin cuerpo -->
+
+    <!-- Pie -->
+    <footer>
+        <hr>
+        <p>Desarrollado por Antonio López (DAW220)</p>
+    </footer>
+    <!-- Fin pie -->
+</body>
+
+</html>

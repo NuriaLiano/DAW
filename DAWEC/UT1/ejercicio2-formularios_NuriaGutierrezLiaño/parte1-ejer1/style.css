@@ -1,0 +1,18 @@
+body{
+    background-color: #8FD694;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 3px;
+}
+#rellenar{
+    background-color: #6F8F72;
+}
+#radio{
+    background-color: #77AD78;
+}
+#checkbox{
+    background-color: #7DBA84;
+}
+header{
+    background-color: #6F8F72;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $("#btn").click(function(){
+                $("#refran").addClass("cuadrado")
+                $("#refran").text("Si DIW quieres aprobar");
+                $("#algo").fadeToggle(2000);
+                $("#continuacion").fadeToggle(2000);
+            });
+            $("#refran").click(function(){
+                $("#algo").fadeIn(2000);
+                $("#continuacion").fadeIn(2000);
+                $("#algo").css({"backgroundColor":"yellow"});
+                $("#continuacion").css({"backgroundColor":"yellow"});
+                $("#refran").animate({
+                    fontSize: "50px",
+                    paddingRight: "50%"
+                })
+            });
+
+        })
+
+
+    </script>
+    <style>
+        .cuadrado{
+            position: relative;
+            background-color: crimson;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: unset;
+            height: 100px;
+            float: right;
+        }
+    </style>
+    <title>Ejercicio 2 Nuria</title>
+</head>
+<body>
+    <p id="algo">ALGO TENDRÁS QUE ESTUDIAR...</p>
+    <p id="continuacion">Si el refrán quieres conocer</p>
+    <input type="button" value="Pulsa para continuar" id="btn">
+    <p id="refran" ></p>
+</body>
+</html>

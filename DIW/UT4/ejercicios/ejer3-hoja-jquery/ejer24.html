@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#btn").click(function() {
+                $("#pri").text("Hola mundo");
+            })
+            $("#btn2").click(function() {
+                $("#se").text("Hola mundo").css({"font-weight":"bold"});
+            })
+            $("#btn3").click(function() {
+                $("input:text").val("HolaMundo");
+            })    
+        })
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <p id="pri"></p>
+    <p id="se"></p>
+    <input type="button" value="btn" id="btn">
+    <input type="button" value="btn2" id="btn2">
+    <input type="button" value="btn3" id="btn3">
+    <input type="text" value="">
+
+    
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            contadoramarillo = 0;
+            contadorazul = 0;
+            $("#amarillo").mouseenter(function(){
+                $("#primerp").text("contador" + contadoramarillo++);
+            })
+            $("#azul").mouseenter(function(){
+                $("#segunp").text("contador" + contadorazul++);
+            })
+        })
+    </script>
+    <title>Document</title>
+    <style>
+        #amarillo{
+            background-color: greenyellow;
+            width: 200px;
+            height: 200px;
+
+        }
+        #azul{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+        div{
+            position: absolute;
+            
+        }
+        div #azul{
+            top: 25%;
+            left: 25%;
+        }
+        #primerp{
+            background-color: rgb(141, 177, 86);
+            
+            width: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div id="amarillo">
+        <p id="primerp"></p>
+        <div id="azul">
+            <p id="segunp"></p>
+        </div>
+    </div>
+    
+</body>
+</html>

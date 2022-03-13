@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#btn").click(function() {
+                $("p").addClass("fondoP");
+                $("a").addClass("fondoA");
+            })
+            $("#btnborrar").click(function() {
+                $("p").removeClass("fondoP");
+                $("a").removeClass("fondoA");
+            })
+                
+        })
+    </script>
+    <style>
+        .fondoP{
+            background-color: purple;
+        }
+        .fondoA{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p class="italic">primero</p>
+    <a href="">enlace</a>
+    
+    <input type="button" value="btn" id="btn">
+    <input type="button" value="btnborrar" id="btnborrar">
+
+    
+</body>
+
+</html>

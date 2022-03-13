@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Ejercicio 2</title>
+<script type="text/javascript" src="ficherojQuery/jquery-3.6.0.js"></script>
+<script type="text/javascript">
+    $(document).ready( function() {
+        $("#capa1").hide();
+        $("#boton").click(function() {
+            $("#capa1").fadeIn();
+            $("span").toggleClass("blanco").fadeToggle();
+            $("p").toggleClass("blanco").fadeToggle();
+            $("span").addClass("amarillo");
+            $("p").addClass("amarillo"); 
+        });
+
+        $("#capa1").click(function() {
+            $("#capa1").animate({width: "800px", height: "100px", fontSize: "40px"});
+        });
+    });
+</script>
+<style media="screen">
+	#capa1 { 
+		background:red;
+        font-family: 'Courier New', Courier, monospace; 
+		margin:3px; 
+		width:100px; 
+		height:100px;   
+        float: right; 
+    }
+    .amarillo {
+        background-color: yellow;
+    }
+
+    .blanco {
+        background-color: white;
+    }
+</style>
+<head>
+    <body>
+        <span>ALGO TENDRAS QUE ESTUDIAR...</span>
+        <p>Si el refran quieres conocer</p>
+        <input id="boton" type="button" value="Pulsa para continuar"/>
+        <div id="capa1">Si DIW quieres aprobar</div>
+    </body>
+</html>

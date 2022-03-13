@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DBB68F;
+    color: azure;
+}
+
+header{
+    text-align: center;
+    backdrop-filter: blur(2px);
+    background-color: #BB7E5D;
+    border-radius: 15px;
+}
+fieldset{
+    border-radius: 20px;
+    padding: 10px 20px 30px;
+}
+#datos{
+    background-color: #BB7E5D;;
+}
+#favoritos{
+    background-color: #BB7E5D;;
+}
+#votacion{
+    background-color: #BB7E5D;;
+}
+#fichero{
+    background-color: #BB7E5D;;
+}
+#botones{
+    text-align: center;
+}
+

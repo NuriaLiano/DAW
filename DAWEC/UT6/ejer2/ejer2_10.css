@@ -1,0 +1,26 @@
+div {
+    color: #af72c1;
+    float: left;
+    position: relative;
+    letter-spacing: 9px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: #f4db60;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    height: 44px;
+    width: 164px;
+}
+
+input {
+    border-color: #af72c1;
+    background-color: #af72c1;
+    border-radius: 10%;
+    color: white;
+    height: 52px;
+    width: 306px;
+    font-size: 100%;
+    font-weight: bold;
+}

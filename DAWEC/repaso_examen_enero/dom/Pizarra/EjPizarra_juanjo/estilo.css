@@ -1,0 +1,31 @@
+#pizarra{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    resize: none;
+    float: inherit;
+    margin: auto;
+}
+
+.hijosPizarra{
+
+    border: solid black 1px;
+    width: 10px;
+    height: 10px;
+
+    max-width: 10px;
+    max-height: 10px;
+}
+
+#opciones{
+    position: inherit;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+legend{
+    font-size: 20px;
+}

@@ -1,0 +1,6 @@
+ul {
+    list-style-type: none;
+}
+#lista-inventada{
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+}

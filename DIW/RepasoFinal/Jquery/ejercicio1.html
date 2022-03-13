@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script>
+       $(document).ready(function(){
+            $("input").click(function(){
+                $(" p.intro").hide();
+                $("ul li:first").hide();
+            })
+        })
+    </script>
+</head>
+<body>
+    <header class="intro">HOLA</header>
+    <p class="intro">Primer PARRAFO</p>
+    <P>SEGUNDO</P>
+    <input type="button" value="boton" id="boton">
+
+    <ul>
+        <li>Tortilla</li>
+        <li>Jamon</li>
+        <li>Queso</li>
+        <li>Tortilla 2</li>
+    </ul>
+    <ul>
+        <li>Coca</li>
+        <li>leche</li>
+        <li>jamon</li>
+        <li>Tortilla 2</li>
+    </ul>
+</body>
+</html>

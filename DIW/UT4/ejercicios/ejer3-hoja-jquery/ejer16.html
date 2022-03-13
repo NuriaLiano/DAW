@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("input").click(function(e) {
+                $("#primer").fadeTo("slow", 0.15);
+                $("#segun").fadeTo("slow", 0.4);
+                $("#tercer").fadeTo("slow", 0.7);
+            })
+                
+        })
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="primer" style="background-color: green; width: 30px; height: 30px;" ></div>
+    <div id="segun" style="background-color: green; width: 30px; height: 30px;"></div>
+    <div id="tercer" style="background-color: green; width: 30px; height: 30px;"></div>
+
+    <input type="button" value="ocultar" id="ocultar">
+</body>
+
+</html>

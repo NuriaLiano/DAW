@@ -1,0 +1,70 @@
+body{
+    background-color: green;
+}
+
+/*generales*/
+.contenido, .izq_down, .izq_top, .dcha_down, .dcha_top{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.izq_top, .izq_down, .dcha_down, .dcha_top{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: blue;
+    font-size: 100px;
+    /*les falta el zindex 1 */
+}
+
+
+.contenido{
+    
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    background-image: url("noel.jpg");
+    font-size: 50px;
+    margin-left: -300px;
+    margin-top: -200px;
+
+    
+
+}
+.izq_top{
+    
+    float: left;
+    clear: left;
+    margin-left: -371px;
+    margin-top: -250px;
+    
+
+}
+.dcha_top{
+    
+    float: right;
+    clear: right;
+    margin-top: -255px;
+    margin-left: 240px;
+    font-size: 100px;
+
+}
+.izq_down{
+    
+    float: left;
+    clear: left;
+    margin-top: 100px;
+    margin-left: -365px;
+    
+}
+.dcha_down{
+    
+    float: right;
+    margin-left: 230px;
+    margin-top: 100px;
+
+}

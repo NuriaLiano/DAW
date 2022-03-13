@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("tr:odd").css({
+                backgroundColor: "red" //PINTA LAS IMPARES
+            })
+            $("tr:even").css({
+                backgroundColor: "green" //PINTA LAS PARES
+            })
+        })
+    </script>
+    <title>Ejer1</title>
+    <style>
+        table, td{
+            border: solid 1px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>celda1</td>
+            <td>celda2</td>
+            <td>celda3</td>
+        </tr>
+        <tr>
+            <td>celda4</td>
+            <td>celda5</td>
+            <td>celda6</td>
+        </tr>
+        <tr>
+            <td>celda7</td>
+            <td>celda8</td>
+            <td>celda9</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color:#FDDBBD; 
+    font-family: sans-serif; 
+    text-align: justify;
+}
+
+div { 
+    background-color: #F2D0AB; 
+    border: #C9A568 2px dashed; 
+    float: left; 
+    font-style: italic; 
+    height: 13em; 
+    line-height: 150%; 
+    margin: 10px; 
+    overflow: visible; 
+    width: 13em; 
+}
+
+h1 { 
+    color: #B0B0B0; 
+    text-align: center; 
+    text-transform: capitalize; 
+}
+
+h2 { 
+    background-color: #C9A568; 
+    color: #DDDDDD; 
+    font-size: 150%; 
+    left: 1em; 
+    padding: 0px 10px; 
+    position: relative; 
+    top: -1.25em; 
+    width: 6em; 
+}
+
+p { 
+    font-style: italic; 
+    line-height: 150%; 
+    padding: 10px; 
+    position: relative;
+    top: -3em; 
+} 
+p:first-letter {
+    color: #C9A568; 
+    float: left; 
+    font-size: 300%; 
+    font-style: normal; 
+}

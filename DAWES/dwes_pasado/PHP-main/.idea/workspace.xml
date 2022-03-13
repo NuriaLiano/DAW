@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbd95cfa-fea3-45a8-9c0a-78008aa750fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Class/BaseDatos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class/Producto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/Circulo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Empleado.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Encargado.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/Cuenta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaAhorro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaCorriente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Familia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Medico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Ugencia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Alimentacion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Electronica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Productos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Bombilla.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Coche.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/iEncendible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/jugadores/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoja04_BBDD_01/jugadores/html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/plazas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoja04_BBDD_03/plazas.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1k3xQtUkpCyQMPYZxANW1ClaXro" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbd95cfa-fea3-45a8-9c0a-78008aa750fb" name="Default Changelist" comment="" />
+      <created>1604943065454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604943065454</updated>
+      <workItem from="1604943067802" duration="964000" />
+      <workItem from="1607609130940" duration="513000" />
+      <workItem from="1607609894669" duration="533000" />
+      <workItem from="1607622968762" duration="4549000" />
+      <workItem from="1607627607899" duration="72000" />
+      <workItem from="1607627715427" duration="869000" />
+      <workItem from="1607961632385" duration="6257000" />
+      <workItem from="1608050973064" duration="7601000" />
+      <workItem from="1608059672578" duration="169000" />
+    </task>
+    <task id="LOCAL-00001" summary="get conexion con misqli">
+      <created>1604943304719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604943304719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="get conexion con misqli">
+      <created>1604943367486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604943367486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="get conexion con misqli">
+      <created>1604943387307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604943387307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="get conexion con misqli" />
+    <option name="LAST_COMMIT_MESSAGE" value="get conexion con misqli" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1604943210444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1604943210444" />
+    <state x="390" y="6" key="#PHP" timestamp="1604943212436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="6" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1604943212436" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607623940483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607623940483" />
+    <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1608057202001">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608057202001" />
+    <state x="464" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608056382517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="464" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1608056382517" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1608059173209">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="101" key="FileChooserDialogImpl/0.0.1366.623@0.0.1366.623" timestamp="1607610429136" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608059173209" />
+    <state x="490" y="86" key="NewPhpClassDialog" timestamp="1608056383451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="490" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1608056383451" />
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1608057506523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608057506523" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1607628588606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607628588606" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1607623329683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1607623329683" />
+    <state x="207" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604944495180">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="207" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1604944495180" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604943376043" />
+    <state x="576" y="0" width="806" height="716" key="dock-window-1" timestamp="1607628112816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="576" y="0" width="806" height="716" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1607628112816" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607961744150">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607961744150" />
+  </component>
+</project>

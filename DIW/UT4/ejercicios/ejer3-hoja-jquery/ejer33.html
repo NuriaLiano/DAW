@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title> </title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script src="jquery.animate-colors.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#start").click(function() {
+                $("div").animate({
+                    width:'40px',
+                    height:'40px',
+                    backgroundColor:'#8ee629',
+                    left:'200px'
+                    
+
+                }, 1000).slideUp(2000);
+            })
+                
+        })
+    </script>
+    <style>
+        #cuadrado{
+            background-color: skyblue;
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <input type="button" value="START" id="start">
+    <input type="button" value="STOP" id="stop">
+    <br>
+    <div id="cuadrado"></div>
+    
+</body>
+
+</html>

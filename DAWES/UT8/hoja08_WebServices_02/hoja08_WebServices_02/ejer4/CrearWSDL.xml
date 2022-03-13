@@ -1,0 +1,141 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wsdl:definitions targetNamespace="http://127.0.0.1/ejercicios/hoja08_WebServices_02/ejer4/letras/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://127.0.0.1/ejercicios/hoja08_WebServices_02/ejer4/letras/" xmlns:soap-env="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+
+
+<wsdl:types>
+
+<xsd:schema targetNamespace="http://127.0.0.1/ejercicios/hoja08_WebServices_02/ejer4/letras/"/>
+
+</wsdl:types>
+
+
+<wsdl:message name="getPVPRequest">
+
+<wsdl:part name="cod" type="xsd:string"/>
+
+</wsdl:message>
+
+
+<wsdl:portType name="FuncionesPortType">
+
+
+<wsdl:operation name="getPVP">
+
+<wsdl:documentation>REtorna el PVP del articulo</wsdl:documentation>
+
+<wsdl:input message="tns:getPVPRequest"/>
+
+<wsdl:output message="tns:getPVPResponse"/>
+
+</wsdl:operation>
+
+
+
+
+<wsdl:binding name="FuncionesBinding" type="tns:FuncionesPortType">
+
+<soap-env:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+
+
+<wsdl:operation name="getPVP">
+
+<soap-env:operation style="rpc" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://127.0.0.1/Tema-8/hoja08_tienda/serviciow.php?method=getPVP"/>
+
+
+<wsdl:input>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:input>
+
+
+<wsdl:output>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:output>
+
+</wsdl:operation>
+
+
+<wsdl:operation name="getStock">
+
+<soap-env:operation style="rpc" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://127.0.0.1/Tema-8/hoja08_tienda/serviciow.php?method=getStock"/>
+
+
+<wsdl:input>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:input>
+
+
+<wsdl:output>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:output>
+
+</wsdl:operation>
+
+
+<wsdl:operation name="getFamilias">
+
+<soap-env:operation style="rpc" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://127.0.0.1/Tema-8/hoja08_tienda/serviciow.php?method=getFamilias"/>
+
+
+<wsdl:input>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:input>
+
+
+<wsdl:output>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:output>
+
+</wsdl:operation>
+
+
+<wsdl:operation name="getProductosFamilia">
+
+<soap-env:operation style="rpc" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://127.0.0.1/Tema-8/hoja08_tienda/serviciow.php?method=getProductosFamilia"/>
+
+
+<wsdl:input>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:input>
+
+
+<wsdl:output>
+
+<soap-env:body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" use="encoded"/>
+
+</wsdl:output>
+
+</wsdl:operation>
+
+</wsdl:binding>
+
+
+<wsdl:service name="Funciones">
+
+<wsdl:documentation>Class Funciones Curso: Desarrollo Web de Entorno Servidor Tema 8: SERVICIOS WEB Ejercicio: Funciones.php, fichero comentado para la creación automática de documento WSDL</wsdl:documentation>
+
+
+<wsdl:port name="FuncionesPort" binding="tns:FuncionesBinding">
+
+<soap-env:address location="http://127.0.0.1/Tema-8/hoja08_tienda/serviciow.php"/>
+
+</wsdl:port>
+
+</wsdl:service>
+
+</wsdl:definitions>

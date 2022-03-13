@@ -1,0 +1,193 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(221, 174, 174);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #660000;
+	background-color: #fdd5d5;
+	left: 25%;
+	position: absolute;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+p, ol, ul {
+	margin-bottom: 1.8em;
+	line-height: 160%;
+}
+
+a {
+	color: #a32626;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a img {
+	border: none;
+}
+
+#cabecera {
+	width: 900px;
+	height: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url("img01.gif") ;
+	background-repeat: repeat-x;
+	color: white;
+}
+#cabecera a{
+color: #FFFFFF;
+text-decoration: none;
+
+}
+#cabecera a:hover{
+	color: #FF0000;
+	z-index: 2;
+}
+#cabecera a:link {
+color: #FFFFFF;
+}
+#logo {
+	float: left;
+	
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	padding: 25px 0px 0px 0px;
+}
+
+#menu {
+	height: 20px;
+	color: white;
+	float: right;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 49px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin: 0px 0px 0px 1px;
+}
+
+#menu a {
+	display: block;
+	width: auto;
+	height: 28px;
+	padding: 12px 20px 0px 20px;
+}
+
+
+
+#contenido {
+	width: 900px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+
+	
+}
+
+#cuerpo {
+	width: 570px;
+	float: left;
+	margin-left: 40%;
+	margin-top: -70%;
+}
+
+.post {
+	margin: 0px 0px 30px 0px;
+	float: right;
+}
+
+.post .title {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 1px solid #c49090;
+}
+
+.post .entry {
+	float: left;
+}
+
+.post .meta {
+	font-weight: bold;
+}
+
+.post .byline {
+	margin: 0px;
+}
+
+#izquierda {
+	width: 300px;
+	background-color: white;
+	border: #a32626 solid 1px;
+}
+.item{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#pie {
+	width: 900px;
+	height: 50px;
+	margin-block-end: 30px;
+	background-image: url("img06.gif");
+	color: white;
+
+}
+
+#pie p {
+	margin: 0px;
+	padding: 11px 0px 0px 0px;
+	text-align: center;
+	line-height: normal;
+	font-size: smaller;
+}
+
+#pie a {
+	color: #FFFFFF;
+}
+
+.resaltar {
+ border: 1px solid red;
+            background-color: aqua;
+
+}
+
+
