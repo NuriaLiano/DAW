@@ -1,0 +1,104 @@
+** {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: rgb(56, 197, 216);
+    padding: 50px;
+    }
+    .login {
+    margin: 20px auto;
+    width: 300px;
+    }
+    .login-caja {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top:220px;
+    /*box-shadow: 5px 5px rgb(41, 151, 165);*/
+    /*fondo elevado*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px;
+    }
+    
+    .login-titulo {
+    text-align: center;
+    color: #777;
+    }
+
+.login-form {
+    text-align: center;
+    }
+    .login-inputs {
+    margin-bottom: 10px;
+    }
+    
+    input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    }
+    
+    input:focus {
+    border: 2px solid rgb(56, 197, 216);
+    box-shadow: none;
+    }
+    
+    .btn {
+      border: 2px solid transparent;
+      background: rgb(56, 197, 216);
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    .btn-rg {
+      border: 2px solid transparent;
+      background: #d4fff8;
+      color: rgb(56, 197, 216);
+      font-size: 16px;
+      line-height: 10px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 150px;
+      margin: 30px auto;
+    }
+    
+    .btn:hover {
+      /*background-color: #2980B9;*/
+      background-color: white;
+      color: rgb(56, 197, 216);
+    }
+    .btn-rg:hover {
+      /*background-color: #2980B9;*/
+      background-color: white;
+      color: rgb(56, 197, 216);
+    }
+    .pie{
+    	color: grey;
+    	font-size: 11px;
+    	text-align: center;
+    
+    }

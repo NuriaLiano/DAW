@@ -1,0 +1,210 @@
+/* Estilos generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+body {
+    min-width: 1450px;
+}
+
+/* Barra superior */
+#barra_superior {
+    height: 4em;
+    line-height: 2.6em;
+
+    font-size: xx-large;
+    font-weight: bolder;
+
+    background-color: rgb(56, 197, 216);
+    color: white;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px;
+    padding-left: 1em;
+}
+
+#info_cesta {
+    color: white;
+    float: right;
+    clear: both;
+	/*background-color: red;*/
+    font-size: small;
+    margin: 5px 10% 5px 0;
+}
+
+/* Botón */
+.boton_volver {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: #ffa14a;
+    font-weight: bold;
+    float: right;
+    clear: right;
+    
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    border-color: #ffa14a;
+    
+    
+    margin-right: 1em;
+    margin-top: -3em;
+}
+.boton_volver:hover{
+	background-color: white;
+    color: #ffa14a;
+}
+
+.boton_carrito {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: #5bbd75;
+    border-color:#5bbd75;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    font-weight: bold;
+
+    float: right;
+    margin-right: 1em;
+}
+
+.boton_carrito:hover{
+	background-color: white;
+    color: #5bbd75;
+}
+
+.boton_cesta {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: rgb(56, 197, 216);
+    font-weight: bold;
+	line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    float: left;
+    margin-left: 2px;
+}
+.boton_cesta:hover{
+	background-color: white;
+    color: rgb(56, 197, 216);
+}
+
+.boton_inferior {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: rgb(56, 197, 216);
+    font-weight: bold;
+	line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    float: left;
+    
+    margin: 1em;
+}
+.boton_inferior:hover{
+	background-color: white;
+    color: rgb(56, 197, 216);
+}
+
+.boton_darbaja {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: #ab1700;
+    font-weight: bold;
+	line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    float: left;
+    
+    margin: 1em;
+}
+.boton_darbaja:hover{
+	background-color: white;
+    color: #ab1700;
+}
+
+/* Listado productos */
+.producto {
+    display: block;
+    float: left;
+
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 2px solid lightgrey;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    /*box-shadow: 5px 5px rgb(41, 151, 165);*/
+    /*fondo elevado*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px;
+}
+
+
+.producto img {
+    float: left;
+    width: 140px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.producto .detalle_producto {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: auto;
+    
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0 0 10px;
+    width: auto;
+    transition: border .5s;
+    }
+
+
+.producto .detalle_producto .titulo {
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+.producto .detalle_producto .precio {
+    font-size: large;
+}
+
+/* Pie */
+#pie {
+    height: 3em;
+    line-height: 3em;
+
+    color: #858585;
+
+    padding-left: 1em;
+}
+
+/* Clearfix */
+.clearfix {
+    clear: both;
+}

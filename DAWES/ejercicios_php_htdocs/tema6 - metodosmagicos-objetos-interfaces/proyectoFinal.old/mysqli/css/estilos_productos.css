@@ -1,0 +1,138 @@
+/* Estilos generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width: 1450px;
+}
+
+/* Barra superior */
+#barra_superior {
+    height: 4em;
+    line-height: 2.6em;
+
+    font-size: xx-large;
+    font-weight: bolder;
+
+    background-color: lightskyblue;
+    color: white;
+
+    padding-left: 1em;
+}
+
+#info_cesta {
+    color: white;
+    float: right;
+    clear: left;
+
+    font-size: small;
+
+    margin-right: 15px;
+    margin-top: -25px;
+}
+
+/* Botón */
+.boton_volver {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    float: right;
+    clear: right;
+    
+    margin-right: 1em;
+    margin-top: -3em;
+}
+
+.boton_carrito {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: green;
+    font-weight: bold;
+
+    float: right;
+    margin-right: 1em;
+}
+
+.boton_cesta {
+    padding: 0.3em 1em;
+
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+
+    float: left;
+    margin-left: 2px;
+}
+
+/* Listado productos */
+.producto {
+    display: block;
+    float: left;
+
+    margin: 5px;
+    width: calc((100% - 42px)/3);
+    height: 300px;
+    border: 2px solid lightgrey;
+}
+
+.producto img {
+    float: left;
+    width: 180px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.producto .detalle_producto {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 270px;
+    height: 268px;
+}
+
+.producto .detalle_producto .titulo {
+    font-size: large;
+    margin-bottom: -15px;
+}
+
+.producto .detalle_producto .familia {
+    font-size: normal;
+    color: lightsteelblue;
+    margin-bottom: -25px;
+}
+
+.producto .detalle_producto .precio {
+    font-size: xx-large;
+    color: lightskyblue;
+    margin-bottom: -15px;
+}
+
+.producto .detalle_producto .descripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 4;
+           line-clamp: 4; 
+   -webkit-box-orient: vertical;
+
+}
+
+/* Pie */
+#pie {
+    height: 3em;
+    line-height: 3em;
+
+    background-color: black;
+    color: white;
+
+    padding-left: 1em;
+}
+
+/* Clearfix */
+.clearfix {
+    clear: both;
+}

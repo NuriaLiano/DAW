@@ -1,0 +1,190 @@
+/* Estilos generales */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    box-sizing: border-box
+}
+
+body {
+    min-width: 1450px;
+}
+
+
+/* Barra superior */
+
+#barra_superior {
+    height: 4em;
+    line-height: 2.6em;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: rgb(56, 197, 216);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px;
+    padding-left: 1em;
+}
+
+#info_cesta {
+    color: white;
+    float: right;
+    clear: both;
+    /*background-color: red;*/
+    font-size: small;
+    margin: 5px 10% 5px 0;
+}
+
+
+/* Botón */
+
+.boton_volver {
+    padding: 0.3em 1em;
+    color: white;
+    background-color: #ffa14a;
+    font-weight: bold;
+    float: right;
+    clear: right;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    border-color: #ffa14a;
+    margin-right: 1em;
+    margin-top: -3em;
+}
+
+.boton_volver:hover {
+    background-color: white;
+    color: #ffa14a;
+}
+
+.boton_carrito {
+    padding: 0.3em 1em;
+    color: white;
+    background-color: #5bbd75;
+    border-color: #5bbd75;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    font-weight: bold;
+    float: right;
+    margin-right: 1em;
+}
+
+.boton_carrito:hover {
+    background-color: white;
+    color: #5bbd75;
+}
+
+.boton_cesta {
+    padding: 0.3em 1em;
+    color: white;
+    background-color: rgb(56, 197, 216);
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    float: left;
+    margin-left: 2px;
+}
+
+.boton_cesta:hover {
+    background-color: white;
+    color: rgb(56, 197, 216);
+}
+
+#boton_like {
+    background-image: url('../img/like_blue.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#boton_like:hover {
+    background-image: url('../img/like_red.png');
+}
+
+
+/* Listado productos */
+
+.producto {
+    display: block;
+    float: left;
+    margin: 5px;
+    width: calc((100% - 42px)/3);
+    height: 400px;
+    border: 2px solid lightgrey;
+}
+
+.producto:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -10px;
+}
+
+.producto img {
+    float: left;
+    width: 180px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.producto .detalle_producto {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 270px;
+    height: 268px;
+}
+
+.producto .detalle_producto .titulo {
+    font-size: large;
+    margin-bottom: -15px;
+}
+
+.producto .detalle_producto .familia {
+    font-size: normal;
+    color: lightsteelblue;
+    margin-bottom: -25px;
+}
+
+.producto .detalle_producto .precio {
+    font-size: xx-large;
+    color: lightskyblue;
+    margin-bottom: -15px;
+}
+
+.producto .detalle_producto .descripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+/* Pie */
+
+#pie {
+    height: 3em;
+    line-height: 3em;
+    color: #858585;
+    padding-left: 1em;
+}
+
+
+/* Clearfix */
+
+.clearfix {
+    clear: both;
+}

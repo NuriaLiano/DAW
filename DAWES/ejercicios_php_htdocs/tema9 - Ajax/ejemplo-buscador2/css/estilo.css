@@ -1,0 +1,13 @@
+
+.resultados{
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+.resultados td{
+     border:solid;
+    border-width:1px;
+    border-color:black;
+}
